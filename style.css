@@ -22,4 +22,5 @@ a{
   z-index:1000;
   border: 0;
   outline: 0;
+  opacity: 0.6;
 }
