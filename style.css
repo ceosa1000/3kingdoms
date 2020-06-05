@@ -1,0 +1,25 @@
+a{
+  color:black;
+  text-decoration:none;
+}
+
+#container {width: 1000px; margin: 0 auto; font-size:15px;}
+#container #input-form {text-align: center;}
+#user-table {margin: 0 auto; text-align: center;}
+#input-form {margin-top: 10px; margin-bottom: 10px;}
+
+#user-table {border-collapse: collapse;}
+#user-table > thead > tr { background-color: #333; color:#fff; }
+#user-table > thead > tr > th { padding: 8px; width: 500px;}
+#user-table > tbody > tr > th { border-bottom: 1px solid gray; padding:8px;}
+#user-table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px;}
+
+#top_button {
+  width:100px; height:130px;
+  position:fixed;
+  right: 40px;
+  bottom: 10px;
+  z-index:1000;
+  border: 0;
+  outline: 0;
+}
